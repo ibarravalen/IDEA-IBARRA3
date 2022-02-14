@@ -1,0 +1,14 @@
+/* Comentario puro */
+ul {
+  list-style: none; }
+  ul li {
+    padding: 5px;
+    display: inline-block; }
+    ul li:hover {
+      background-color: red;
+      width: 100px;
+      border-radius: 5px; }
+    ul li a {
+      text-decoration: none;
+      font-size: 16px;
+      color: black; }
