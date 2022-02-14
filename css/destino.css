@@ -1,14 +1,63 @@
-/* Comentario puro */
-ul {
-  list-style: none; }
-  ul li {
-    padding: 5px;
-    display: inline-block; }
-    ul li:hover {
-      background-color: red;
-      width: 100px;
-      border-radius: 5px; }
-    ul li a {
-      text-decoration: none;
-      font-size: 16px;
-      color: black; }
+/* Variables */
+* {
+  margin: 0;
+  padding: 0; }
+
+header {
+  background-color: #791717; }
+  header ul {
+    display: inline-flex;
+    list-style: none; }
+    header ul li {
+      color: white;
+      padding: 5px;
+      margin: 5px; }
+      header ul li:hover {
+        color: #cfb6a2; }
+      header ul li a {
+        color: white;
+        padding: 5px;
+        margin: 5px; }
+        header ul li a:hover {
+          color: #cfb6a2; }
+        header ul li a:active {
+          border-bottom: none; }
+  header span {
+    font-size: 30px;
+    color: #cfb6a2;
+    margin-left: 250px;
+    align-items: center; }
+
+h2 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  color: #791717;
+  font-size: 30px; }
+
+section button {
+  padding: 10px;
+  background-color: #791717;
+  color: #cfb6a2; }
+  section button a {
+    background-color: #791717;
+    color: #cfb6a2; }
+
+.img1 {
+  margin: 0;
+  padding: 0;
+  width: 100%; }
+
+.img2 {
+  margin: 5px;
+  width: 200px; }
+
+.galeriaflex {
+  padding: 10px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: center; }
+
+footer p {
+  background-color: #791717;
+  color: #cfb6a2; }

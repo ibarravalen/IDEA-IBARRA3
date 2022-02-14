@@ -1,30 +1,96 @@
-/* Comentario puro */
+/* Variables */
 
+$rojo: rgb(121,23,23);
+$rosado: rgb(207,182,162);
 
-ul {
-    list-style: none;
-
-    li {
-
-        padding: 5px;
-        display: inline-block;
-
-    &:hover {
-        background-color: red;
-        width: 100px;
-        border-radius: 5px;
-    }
-
-        a {
-            text-decoration: none;
-            font-size: 16px;
-            color: black;
-
-        }
-
-    }
-
-
+* {
+    margin: 0;
+    padding: 0;
 }
 
 
+header {
+    background-color: $rojo;
+ul {
+    display: inline-flex;
+    list-style: none;
+    li {
+        color:white;
+        padding: 5px;
+        margin: 5px;
+
+        &:hover {
+            color: $rosado ;
+        }
+
+        a {
+
+            color:white;
+            padding: 5px;
+            margin: 5px;
+
+            &:hover {
+                color: $rosado ;
+            }
+
+            &:active {
+                border-bottom: none;
+            }
+
+        }
+    }
+}
+span {
+    font-size: 30px;
+    color: $rosado;
+    margin-left: 250px;
+    align-items: center;
+}
+}
+
+    h2{
+        text-align: center;
+        margin: 10px;
+        padding: 10px;
+        color: $rojo;
+        font-size: 30px;
+    }
+
+  section {
+      button {
+          padding: 10px;
+          background-color: $rojo;
+          color: $rosado;
+         a {
+            background-color: $rojo;
+            color: $rosado;
+         }
+      }
+  }
+
+.img1 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+.img2 {
+    margin: 5px;
+    width: 200px;
+}
+
+.galeriaflex {
+    padding: 10px;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: center;
+}
+
+footer {
+    p {
+
+    background-color: $rojo;
+    color: $rosado;
+            
+}
+}
